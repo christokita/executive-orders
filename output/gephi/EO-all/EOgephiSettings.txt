@@ -1,0 +1,43 @@
+THREADS
+Threads number 2
+
+BEHAVIOR ALTERNATIVES
+
+Dissuade Hubs [ ]
+LinLog mode [ ]
+Prevent Overlap [X]
+Edgeweight Influence 1.0
+
+
+TUNING
+Scaling 300.0
+Stronger Gravity [X]
+Gravity 0.1
+
+
+PERFORMANCE
+Tolerance(Speed) 1.0
+Approximate Repulsion [X]
+Approximation 1.0
+
+RANKING
+NODES
+Min Size 20
+Max Size 300
+
+PREVIEW SETTINGS
+Node Border width 3
+
+Edge Color: Source
+Edge thickness 8
+Edge radius 20
+Edge Opacity 80
+
+Edge Arrow Size 3.0
+
+
+
+To get non-connected nodes to outside:
+1) Turn off "Stronger Gravity" and wait for all non-connected nodes to drift out
+2) If you want to speed up the process turn up "Tolerance" to a value between 2 and 5
+3) Turn on gravity, allowing the connected nodes to take the center. Turn "Tolerance" back to 0.1.

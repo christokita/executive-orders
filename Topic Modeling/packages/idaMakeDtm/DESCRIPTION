@@ -1,0 +1,19 @@
+Package: idaMakeDtm
+Title: These functions create document term matrices in the format consistent
+    with IDA's R-based text mining functions.
+Version: 1.0
+Authors: "Thomas W. Jones <twjones@ida.org>"
+Maintainer: Thomas W. Jones <twjones@ida.org>
+Description: These functions create document term matrices in the format
+    consistent with IDA's R-based text mining functions. These functions are
+    inputs to IDA's DTM-Making Shiny app.
+Depends:
+    R (>= 3.1),
+    tm,
+    slam,
+    Matrix,
+    snowfall,
+    RWeka,
+    SnowballC
+License: GPL
+LazyData: true

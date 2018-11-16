@@ -1,0 +1,219 @@
+topic.num,topic.sub.num,topic,topic.sub,st.manual.topic,topic.broad
+1,100,Macroeconomics,General Domestic Macroeconomic Issues (includes combinations of multiple subtopics),FALSE,Economics/Commerce
+1,101,Macroeconomics,"Inflation, Prices, and Interest Rates",FALSE,Economics/Commerce
+1,103,Macroeconomics,Unemployment Rate,FALSE,Economics/Commerce
+1,104,Macroeconomics,"Monetary Supply, Federal Reserve Board, and the Treasury",FALSE,Economics/Commerce
+1,105,Macroeconomics,National Budget and Debt,FALSE,Economics/Commerce
+1,107,Macroeconomics,"Taxation, Tax policy, and Tax Reform",FALSE,Economics/Commerce
+1,108,Macroeconomics,Industrial Policy,FALSE,Economics/Commerce
+1,110,Macroeconomics,Price Control and Stabilization,FALSE,Economics/Commerce
+1,199,Macroeconomics,Other,FALSE,Economics/Commerce
+2,200,"Civil Rights, Minority Issues, and Civil Liberties",General (includes combinations of multiple subtopics),FALSE,Health/Society
+2,201,"Civil Rights, Minority Issues, and Civil Liberties",Ethnic Minority and Racial Group Discrimination,FALSE,Health/Society
+2,202,"Civil Rights, Minority Issues, and Civil Liberties",Gender and Sexual Orientation Discrimination,FALSE,Health/Society
+2,204,"Civil Rights, Minority Issues, and Civil Liberties",Age Discrimination,FALSE,Health/Society
+2,205,"Civil Rights, Minority Issues, and Civil Liberties",Handicap or Disease Discrimination,FALSE,Health/Society
+2,206,"Civil Rights, Minority Issues, and Civil Liberties","Voting Rights, Participation, and Related Issues",FALSE,Health/Society
+2,207,"Civil Rights, Minority Issues, and Civil Liberties",Freedom of Speech & Religion,FALSE,Health/Society
+2,208,"Civil Rights, Minority Issues, and Civil Liberties",Right to Privacy and Access to Government Information,FALSE,Health/Society
+2,209,"Civil Rights, Minority Issues, and Civil Liberties",Anti-Government Activities,FALSE,Health/Society
+2,299,"Civil Rights, Minority Issues, and Civil Liberties",Other,FALSE,Health/Society
+3,300,Health,General,FALSE,Health/Society
+3,301,Health,Comprehensive health care reform,FALSE,Health/Society
+3,302,Health,"Insurance reform, availability, and cost",FALSE,Health/Society
+3,321,Health,"Regulation of drug industry, medical devices, and clinical labs",FALSE,Health/Society
+3,322,Health,"Facilities construction, regulation, and payments",FALSE,Health/Society
+3,323,Health,Provider and insurer payment and regulation,FALSE,Health/Society
+3,324,Health,"Medical liability, fraud and abuse",FALSE,Health/Society
+3,325,Health,Health Manpower & Training,FALSE,Health/Society
+3,331,Health,"Prevention, communicable diseases and health promotion",FALSE,Health/Society
+3,332,Health,Infants and children,FALSE,Health/Society
+3,333,Health,Mental illness and mental retardation,FALSE,Health/Society
+3,334,Health,"Long-term care, home health, terminally ill, and rehabilitation services",FALSE,Health/Society
+3,335,Health,Prescription drug coverage and costs,FALSE,Health/Society
+3,336,Health,Other or multiple benefits and procedures,FALSE,Health/Society
+3,341,Health,"Tobacco Abuse, Treatment, and Education",FALSE,Health/Society
+3,342,Health,"Alcohol/Controlled and Illegal Drug Abuse, Treatment, and Education",FALSE,Health/Society
+3,399,Health,Other,FALSE,Health/Society
+3,398,Health,Research and development,TRUE,Science/Technology
+4,400,Agriculture,General (includes combinations of multiple subtopics),FALSE,Energy/Environment
+4,401,Agriculture,Agricultural Trade,FALSE,Energy/Environment
+4,402,Agriculture,"Government Subsidies to Farmers and Ranchers, Agricultural Disaster Insurance",FALSE,Energy/Environment
+4,403,Agriculture,Food Inspection and Safety (including seafood),FALSE,Energy/Environment
+4,404,Agriculture,"Agricultural Marketing, Research, and Promotion",FALSE,Energy/Environment
+4,405,Agriculture,"Animal and Crop Disease, Pest Control, and Domesticated Animal Welfare",FALSE,Energy/Environment
+4,408,Agriculture,Fisheries and Fishing,FALSE,Energy/Environment
+4,499,Agriculture,Other,FALSE,Energy/Environment
+4,498,Agriculture,Agricultural Research and Development,TRUE,Science/Technology
+5,500,Labor and Employment,General (includes combinations of multiple subtopics),FALSE,Education/Workforce
+5,501,Labor and Employment,"Worker Safety and Protection, Occupational and Safety Health Administration (OSHA)",FALSE,Education/Workforce
+5,502,Labor and Employment,Employment Training and Workforce Development,FALSE,Education/Workforce
+5,503,Labor and Employment,Employee Benefits,FALSE,Education/Workforce
+5,504,Labor and Employment,Employee Relations and Labor Unions,FALSE,Education/Workforce
+5,505,Labor and Employment,Fair Labor Standards,FALSE,Education/Workforce
+5,506,Labor and Employment,"Youth Employment, Youth Job Corps Programs, and Child Labor",FALSE,Education/Workforce
+5,508,Labor and Employment,Parental Leave and Child Care,FALSE,Education/Workforce
+5,529,Labor and Employment,"Migrant and Seasonal workers, Farm Labor Issues",FALSE,Education/Workforce
+5,599,Labor and Employment,Other,FALSE,Education/Workforce
+6,600,Education,General (includes combinations of multiple subtopics),FALSE,Education/Workforce
+6,601,Education,Higher Education,FALSE,Education/Workforce
+6,602,Education,Elementary and Secondary Education,FALSE,Education/Workforce
+6,603,Education,Education of Underprivileged Students,FALSE,Education/Workforce
+6,604,Education,Vocational Education,FALSE,Education/Workforce
+6,606,Education,Special Education,FALSE,Education/Workforce
+6,607,Education,Educational Excellence,FALSE,Education/Workforce
+6,609,Education,Arts and Humanities,FALSE,Education/Workforce
+6,699,Education,Other,FALSE,Education/Workforce
+6,698,Education,Research and Development,TRUE,Science/Technology
+7,700,Environment,General (includes combinations of multiple subtopics),FALSE,Energy/Environment
+7,701,Environment,Drinking Water Safety,FALSE,Energy/Environment
+7,703,Environment,Waste Disposal,FALSE,Energy/Environment
+7,704,Environment,"Hazardous Waste and Toxic Chemical Regulation, Treatment, and Disposal",FALSE,Energy/Environment
+7,705,Environment,"Air pollution, Global Warming, and Noise Pollution",FALSE,Energy/Environment
+7,707,Environment,Recycling,FALSE,Energy/Environment
+7,708,Environment,Indoor Environmental Hazards,FALSE,Energy/Environment
+7,709,Environment,Species and Forest Protection,FALSE,Energy/Environment
+7,710,Environment,Pollution and Conservation in Coastal & Other Navigable Waterways,FALSE,Energy/Environment
+7,711,Environment,Land and Water Conservation,FALSE,Energy/Environment
+7,799,Environment,Other,FALSE,Energy/Environment
+7,798,Environment,Research and Development,TRUE,Science/Technology
+8,800,Energy,General (includes combinations of multiple subtopics),FALSE,Energy/Environment
+8,801,Energy,Nuclear Energy and Nuclear Regulatory Commission Issues,FALSE,Energy/Environment
+8,802,Energy,Electricity and Hydroelectricity,FALSE,Energy/Environment
+8,803,Energy,Natural Gas and Oil (Including Offshore Oil and Gas),FALSE,Energy/Environment
+8,805,Energy,Coal,FALSE,Energy/Environment
+8,806,Energy,Alternative and Renewable Energy,FALSE,Energy/Environment
+8,807,Energy,Energy Conservation,FALSE,Energy/Environment
+8,899,Energy,Other,FALSE,Energy/Environment
+8,898,Energy,Research and Development,TRUE,Science/Technology
+9,900,Immigration,Immigration and Refugee Issues,FALSE,Defense/Foreign Affairs
+10,1000,Transportation,General (includes combinations of multiple subtopics),FALSE,Economics/Commerce
+10,1001,Transportation,Mass Transportation and Safety,FALSE,Economics/Commerce
+10,1002,Transportation,"Highway Construction, Maintenance, and Safety",FALSE,Economics/Commerce
+10,1003,Transportation,"Airports, Airlines, Air Traffic Control and Safety",FALSE,Economics/Commerce
+10,1005,Transportation,Railroad Transportation and Safety,FALSE,Economics/Commerce
+10,1006,Transportation,Truck and Automobile Transportation and Safety,FALSE,Economics/Commerce
+10,1007,Transportation,"Maritime Issues, Including Safety and Security",FALSE,Economics/Commerce
+10,1010,Transportation,Public Works (Infrastructure Development),FALSE,Economics/Commerce
+10,1098,Transportation,Research and Development,TRUE,Science/Technology
+10,1099,Transportation,Other,FALSE,Economics/Commerce
+12,1200,"Law, Crime, and Family Issues",General (includes combinations of multiple subtopics),FALSE,Health/Society
+12,1201,"Law, Crime, and Family Issues",Executive Branch Agencies Dealing With Law and Crime,FALSE,Health/Society
+12,1202,"Law, Crime, and Family Issues",White Collar Crime and Organized Crime,FALSE,Health/Society
+12,1203,"Law, Crime, and Family Issues","Illegal Drug Production, Trafficking, and Control",FALSE,Health/Society
+12,1204,"Law, Crime, and Family Issues",Court Administration,FALSE,Health/Society
+12,1205,"Law, Crime, and Family Issues",Prisons,FALSE,Health/Society
+12,1206,"Law, Crime, and Family Issues",Juvenile Crime and the Juvenile Justice System,FALSE,Health/Society
+12,1207,"Law, Crime, and Family Issues",Child Abuse and Child Pornography,FALSE,Health/Society
+12,1208,"Law, Crime, and Family Issues",Family Issues,FALSE,Health/Society
+12,1209,"Law, Crime, and Family Issues","Police, Fire, and Weapons Control",FALSE,Health/Society
+12,1210,"Law, Crime, and Family Issues",Criminal and Civil Code,FALSE,Health/Society
+12,1211,"Law, Crime, and Family Issues","Riots, Crime Prevention, and Crime Control",FALSE,Health/Society
+12,1299,"Law, Crime, and Family Issues",Other,FALSE,Health/Society
+13,1300,Social Welfare,General,FALSE,Health/Society
+13,1301,Social Welfare,"Food Stamps, Food Assistance, and Nutrition Monitoring Programs",FALSE,Health/Society
+13,1302,Social Welfare,Poverty and Assistance for Low-Income Families and Individuals,FALSE,Health/Society
+13,1303,Social Welfare,Elderly Issues and Elderly Assistance Programs (Including Social Security Administration),FALSE,Health/Society
+13,1304,Social Welfare,Assistance to the Disabled and Handicapped,FALSE,Health/Society
+13,1305,Social Welfare,Social Services and Volunteer Associations,FALSE,Health/Society
+13,1399,Social Welfare,Other,FALSE,Health/Society
+14,1400,Community Development and Housing Issues,General,FALSE,Health/Society
+14,1401,Community Development and Housing Issues,Housing and Community Development,FALSE,Health/Society
+14,1403,Community Development and Housing Issues,Urban Economic Development and General Urban Issues,FALSE,Health/Society
+14,1404,Community Development and Housing Issues,Rural Housing and FmHA Housing Assistance Programs,FALSE,Health/Society
+14,1405,Community Development and Housing Issues,Rural Economic Development,FALSE,Health/Society
+14,1406,Community Development and Housing Issues,Low and Middle Income Housing Programs and Needs,FALSE,Health/Society
+14,1407,Community Development and Housing Issues,Veterans Housing Assistance and Military Housing Programs,FALSE,Health/Society
+14,1408,Community Development and Housing Issues,Elderly and Handicapped Housing,FALSE,Health/Society
+14,1409,Community Development and Housing Issues,Housing Assistance for Homeless and Homeless Issues,FALSE,Health/Society
+14,1410,Community Development and Housing Issues,Secondary Mortgage Market,FALSE,Health/Society
+14,1499,Community Development and Housing Issues,Other,FALSE,Health/Society
+15,1500,"Banking, Finance, and Domestic Commerce",General,FALSE,Economics/Commerce
+15,1501,"Banking, Finance, and Domestic Commerce",U.S. Banking System and Financial Institution Regulation,FALSE,Economics/Commerce
+15,1502,"Banking, Finance, and Domestic Commerce",Securities and Commodities Regulation,FALSE,Economics/Commerce
+15,1504,"Banking, Finance, and Domestic Commerce","Consumer Finance, Mortgages, and Credit Cards",FALSE,Economics/Commerce
+15,1505,"Banking, Finance, and Domestic Commerce",Insurance Regulation,FALSE,Economics/Commerce
+15,1507,"Banking, Finance, and Domestic Commerce",Bankruptcy,FALSE,Economics/Commerce
+15,1520,"Banking, Finance, and Domestic Commerce","Corporate Mergers, Antitrust Regulation, and Corporate Management Issues",FALSE,Economics/Commerce
+15,1521,"Banking, Finance, and Domestic Commerce",Small Business Issues and the Small Business Administration,FALSE,Economics/Commerce
+15,1522,"Banking, Finance, and Domestic Commerce",Copyrights and Patents,FALSE,Economics/Commerce
+15,1523,"Banking, Finance, and Domestic Commerce",Domestic Disaster Relief,FALSE,Economics/Commerce
+15,1524,"Banking, Finance, and Domestic Commerce",Tourism,FALSE,Economics/Commerce
+15,1525,"Banking, Finance, and Domestic Commerce",Consumer Safety and Consumer Fraud,FALSE,Economics/Commerce
+15,1526,"Banking, Finance, and Domestic Commerce",Sports and Gambling Regulation,FALSE,Economics/Commerce
+15,1599,"Banking, Finance, and Domestic Commerce",Other,FALSE,Economics/Commerce
+16,1600,Defense,General,FALSE,Defense/Foreign Affairs
+16,1602,Defense,"U.S. and Other Defense Alliances, U.S Security Assistance",FALSE,Defense/Foreign Affairs
+16,1603,Defense,"Military Intelligence, CIA, Espionage",FALSE,Defense/Foreign Affairs
+16,1604,Defense,"Military Readiness, Coordination of Armed Services Air Support and Sealift Capabilities, and National Stockpiles of Strategic Materials",FALSE,Defense/Foreign Affairs
+16,1605,Defense,Arms Control and Nuclear Nonproliferation,FALSE,Defense/Foreign Affairs
+16,1606,Defense,Military Aid and Weapons Sales to other Countries,FALSE,Defense/Foreign Affairs
+16,1608,Defense,"Manpower, Military Personnel and Dependents (Army, Navy, Air Force, Marines), Military Courts",FALSE,Defense/Foreign Affairs
+16,1609,Defense,Veteran Affairs and Other Issues,FALSE,Defense/Foreign Affairs
+16,1610,Defense,Military Procurement and Weapons System Acquisitions and Evaluation,FALSE,Defense/Foreign Affairs
+16,1611,Defense,"Military Installations, Construction, and Land Transfers",FALSE,Defense/Foreign Affairs
+16,1612,Defense,National Guard and Reserve Affairs,FALSE,Defense/Foreign Affairs
+16,1614,Defense,"Military Nuclear and Hazardous Waste Disposal, Military Environmental Compliance",FALSE,Defense/Foreign Affairs
+16,1615,Defense,Civil Defense & Homeland Security,FALSE,Defense/Foreign Affairs
+16,1616,Defense,"DOD Civilian Personnel, Civilian Employment by the Defense Industry, Military Base Closings",FALSE,Defense/Foreign Affairs
+16,1617,Defense,Oversight of Defense Contracts and Contractors,FALSE,Defense/Foreign Affairs
+16,1619,Defense,Direct War Related Issues and Foreign Operations,FALSE,Defense/Foreign Affairs
+16,1620,Defense,Relief of Claims Against U.S. Military,FALSE,Defense/Foreign Affairs
+16,1698,Defense,Research and Development,TRUE,Defense/Foreign Affairs
+16,1699,Defense,Other,FALSE,Defense/Foreign Affairs
+17,1700,"Space, Science, Technology, and Communications",General,TRUE,Science/Technology
+17,1701,"Space, Science, Technology, and Communications","NASA, U.S. Government Use of Space, Space Exploration Agreements",TRUE,Science/Technology
+17,1704,"Space, Science, Technology, and Communications","Commercial Use of Space, Satellites",TRUE,Science/Technology
+17,1705,"Space, Science, Technology, and Communications","Science Technology Transfer, International Scientific Cooperation",TRUE,Science/Technology
+17,1706,"Space, Science, Technology, and Communications",Telephone and Telecommunication Regulation,TRUE,Science/Technology
+17,1707,"Space, Science, Technology, and Communications","Broadcast Industry Regulation (TV, Cable, Radio)",TRUE,Science/Technology
+17,1708,"Space, Science, Technology, and Communications","Weather Forecasting and Related Issues, NOAA, Oceanography",TRUE,Science/Technology
+17,1709,"Space, Science, Technology, and Communications","Computer Industry, Computer Security, and General Issues related to the Internet",TRUE,Science/Technology
+17,1798,"Space, Science, Technology, and Communications",Research and Development,TRUE,Science/Technology
+17,1799,"Space, Science, Technology, and Communications",Other,TRUE,Science/Technology
+18,1800,Foreign Trade,General,FALSE,Defense/Foreign Affairs
+18,1802,Foreign Trade,"Trade Negotiations, Disputes, and Agreements",FALSE,Defense/Foreign Affairs
+18,1803,Foreign Trade,"Export Promotion and Regulation, Export-Import Bank",FALSE,Defense/Foreign Affairs
+18,1804,Foreign Trade,"International Private Business Investments, Overseas Private Investment Corporation (OPIC)",FALSE,Defense/Foreign Affairs
+18,1806,Foreign Trade,"Productivity and Competitiveness of U.S. Business, U.S. Balance of Payments",FALSE,Defense/Foreign Affairs
+18,1807,Foreign Trade,"Tariff and Import Restrictions, Import Regulation",FALSE,Defense/Foreign Affairs
+18,1808,Foreign Trade,Exchange Rates and Related Issues,FALSE,Defense/Foreign Affairs
+18,1899,Foreign Trade,Other,FALSE,Defense/Foreign Affairs
+19,1900,International Affairs and Foreign Aid,General (Department of State and U.S. Information Agency appropriations),FALSE,Defense/Foreign Affairs
+19,1901,International Affairs and Foreign Aid,U.S. Foreign Aid,FALSE,Defense/Foreign Affairs
+19,1902,International Affairs and Foreign Aid,International Resources Exploitation and Resources Agreement,FALSE,Defense/Foreign Affairs
+19,1905,International Affairs and Foreign Aid,Developing Countries Issues,FALSE,Defense/Foreign Affairs
+19,1906,International Affairs and Foreign Aid,International Finance and Economic Development,FALSE,Defense/Foreign Affairs
+19,1910,International Affairs and Foreign Aid,Western Europe and Common Market/European Union Issues,FALSE,Defense/Foreign Affairs
+19,1915,International Affairs and Foreign Aid,Panama Canal Issues and Other International Canal Issues,FALSE,Defense/Foreign Affairs
+19,1921,International Affairs and Foreign Aid,Other Country/Region Specific Issues,FALSE,Defense/Foreign Affairs
+19,1925,International Affairs and Foreign Aid,Human Rights,FALSE,Defense/Foreign Affairs
+19,1926,International Affairs and Foreign Aid,"International Organizations other than Finance: United Nations (UN), UNESCO, International Red Cross",FALSE,Defense/Foreign Affairs
+19,1927,International Affairs and Foreign Aid,"Terrorism, Hijacking",FALSE,Defense/Foreign Affairs
+19,1929,International Affairs and Foreign Aid,"U.S. Diplomats, U.S. Embassies, U.S. Citizens Abroad, Foreign Diplomats in the U.S., Passports",FALSE,Defense/Foreign Affairs
+19,1999,International Affairs and Foreign Aid,Other,FALSE,Defense/Foreign Affairs
+20,2000,Government Operations,General (includes budget requests and appropriations for multiple departments and agencies),FALSE,Government Operations
+20,2001,Government Operations,Intergovernmental Relations,FALSE,Government Operations
+20,2002,Government Operations,Government Efficiency and Bureaucratic Oversight,FALSE,Government Operations
+20,2003,Government Operations,Postal Service Issues (Including Mail Fraud),FALSE,Government Operations
+20,2004,Government Operations,"Government Employee Benefits, Civil Service Issues",FALSE,Government Operations
+20,2005,Government Operations,Nominations and Appointments,FALSE,Government Operations
+20,2006,Government Operations,"Currency, Commemorative Coins, Medals, U.S. Mint",FALSE,Government Operations
+20,2007,Government Operations,"Government Procurement, Procurement Fraud and Contractor Management",FALSE,Government Operations
+20,2008,Government Operations,Government Property Management,FALSE,Government Operations
+20,2009,Government Operations,IRS Administration,FALSE,Government Operations
+20,2010,Government Operations,Presidential Impeachment & Scandal,FALSE,Government Operations
+20,2011,Government Operations,"Federal Government Branch Relations and Administrative Issues, Congressional Operations",FALSE,Government Operations
+20,2012,Government Operations,"Regulation of Political Campaigns, Political Advertising, PAC regulation, Government Ethics",FALSE,Government Operations
+20,2013,Government Operations,Census,FALSE,Government Operations
+20,2014,Government Operations,District of Columbia Affairs,FALSE,Government Operations
+20,2015,Government Operations,Relief of Claims against the U.S. Government,FALSE,Government Operations
+20,2030,Government Operations,Federal Holidays,FALSE,Government Operations
+20,2099,Government Operations,Other,FALSE,Government Operations
+21,2100,Public Lands and Water Management,General,FALSE,Energy/Environment
+21,2101,Public Lands and Water Management,"National Parks, Memorials, Historic Sites, and Recreation",FALSE,Energy/Environment
+21,2102,Public Lands and Water Management,Native American Affairs,FALSE,Energy/Environment
+21,2103,Public Lands and Water Management,"Natural Resources, Public Lands, and Forest Management",FALSE,Energy/Environment
+21,2104,Public Lands and Water Management,Water Resources Development and Research,FALSE,Energy/Environment
+21,2105,Public Lands and Water Management,U.S. Dependencies and Territorial Issues,FALSE,Energy/Environment
+21,2199,Public Lands and Water Management,Other,FALSE,Energy/Environment

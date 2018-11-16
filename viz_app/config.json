@@ -1,0 +1,51 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "text": "Institute for Defense Analyses",
+    "file": "/images/logo.png",
+    "link": "http://www.ida.org/"
+  },
+  "text": {
+    "title": "This is your title: edit me by editing config.json",
+
+	"intro": "[Edit me by editing config.json]  The circles represent [what do your nodes represent?]; the circle size depends [explain or delete]; the circle color is [explain or delete]. <strong>You can navigate by clicking and dragging. Zoom in or out by scrolling.</strong>" },
+  "legend": {
+    "edgeLabel": "[Edit me by editing config.json] Information-sharing Connection",
+    "nodeLabel": "[Edit me by editing config.json] Organization or Network"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "Dim"
+  },
+  "informationPanel": {
+    "imageAttribute": false,
+    "groupByEdgeDirection": false
+  },
+  "sigma": {
+    "graphProperties": {
+      "minEdgeSize": 0.2,
+      "maxNodeSize": 10,
+      "maxEdgeSize": 2,
+      "minNodeSize": 1
+    },
+    "drawingProperties": {
+      "labelThreshold": 6,
+      "hoverFontStyle": "bold",
+      "defaultEdgeType": "curve",
+      "defaultLabelColor": "#fff",
+      "defaultLabelHoverColor": "#fff",
+      "defaultLabelSize": 14,
+      "activeFontStyle": "bold",
+      "fontStyle": "bold",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd"
+    },
+    "mouseProperties": {
+      "minRatio": 0.75,
+      "maxRatio": 20
+    }
+  }
+}

@@ -1,0 +1,8 @@
+IPADDY=`ipconfig | grep -i 'IPv4 Address.*10\.10\.' | cut -d: -f2`
+PORT='8888'
+
+echo "visit http://$IPADDY:$PORT"
+
+python -c "import BaseHTTPServer as bhs, SimpleHTTPServer as shs; bhs.HTTPServer(('$IPADDY', $PORT), shs.SimpleHTTPRequestHandler).serve_forever()" &
+
+
