@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1543429731008.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "D9EC51C5",
+    "lastKnownWriteTime" : 6,
+    "last_content_update" : 1543429731008,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "7B603D1E",
+        "caption" : "eos",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=eos&cache_key=7B603D1E",
+        "displayedObservations" : 4243,
+        "environment" : "",
+        "object" : "eos",
+        "preview" : 0,
+        "totalObservations" : 4243,
+        "variables" : 17
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

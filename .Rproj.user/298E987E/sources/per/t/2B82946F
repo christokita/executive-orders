@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1543422135632.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2731063810",
+    "id" : "2B82946F",
+    "lastKnownWriteTime" : 1541536779,
+    "last_content_update" : 1541536779,
+    "path" : "~/Documents/Research/Executive Orders/executive_orders/Topic Modeling/scripts/01TopicModelingEOs.R",
+    "project_path" : "Topic Modeling/scripts/01TopicModelingEOs.R",
+    "properties" : {
+        "cursorPosition" : "10,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
