@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1543872462324.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "511846147",
+    "id" : "5018CA14",
+    "lastKnownWriteTime" : 1543873079,
+    "last_content_update" : 1543873079740,
+    "path" : "~/Documents/Research/Executive Orders/executive_orders/scripts/04a-topicModelEOs.R",
+    "project_path" : "scripts/04a-topicModelEOs.R",
+    "properties" : {
+        "cursorPosition" : "38,58",
+        "scrollLine" : "28"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
