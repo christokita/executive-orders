@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1543871351113.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "677690201",
+    "id" : "111CD108",
+    "lastKnownWriteTime" : 1543871467,
+    "last_content_update" : 1543871467989,
+    "path" : "~/Documents/Research/Executive Orders/executive_orders/scripts/04a-CreateDTM.R",
+    "project_path" : "scripts/04a-CreateDTM.R",
+    "properties" : {
+        "cursorPosition" : "6,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
