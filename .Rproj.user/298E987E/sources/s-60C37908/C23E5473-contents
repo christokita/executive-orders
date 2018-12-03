@@ -28,13 +28,13 @@ eo_dtm <- CreateDtm(doc_vec = eos$text,
                     cpus = 2)
 
 # Basic corpus statistics
-tf_mat <- TermDocFreq(eo_dtm) 
-head(tf_mat[order(tf_mat$term_freq, decreasing = TRUE), ], 20) # see top words
-tf_bigrams <- tf_mat[ stringr::str_detect(tf_mat$term, "_") , ]
-head(tf_bigrams[ order(tf_bigrams$term_freq, decreasing = TRUE) , ], 20) # see top bigram words
+# tf_mat <- TermDocFreq(eo_dtm) 
+# head(tf_mat[order(tf_mat$term_freq, decreasing = TRUE), ], 20) # see top words
+# tf_bigrams <- tf_mat[ stringr::str_detect(tf_mat$term, "_") , ]
+# head(tf_bigrams[ order(tf_bigrams$term_freq, decreasing = TRUE) , ], 20) # see top bigram words
 
 # Save DTM
-save("output/")
+save(eo_dtm, file = "data_derived/eo_dtm.Rdata")
 
 ####################
 # Document clustering
