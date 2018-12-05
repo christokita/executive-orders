@@ -18,7 +18,7 @@ install_missing_packages <- function(list_of_packages) {
 ####################
 # Load packages
 ####################
-required_packages <- c("dplyr", "stringr", "tidyr", "textmineR", "tm")
+required_packages <- c("dplyr", "stringr", "tidyr", "textmineR", "tm", "ggplot2")
 install_missing_packages(required_packages)
 lapply(required_packages, require, character.only = T)
 

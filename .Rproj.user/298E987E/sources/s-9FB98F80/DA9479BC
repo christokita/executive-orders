@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1543976778982.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "DA9479BC",
+    "lastKnownWriteTime" : 1544022194,
+    "last_content_update" : 1544022244792,
+    "path" : "~/Documents/Research/Executive Orders/executive_orders/scripts/04b-analyzeTopicModels.R",
+    "project_path" : "scripts/04b-analyzeTopicModels.R",
+    "properties" : {
+        "cursorPosition" : "37,0",
+        "scrollLine" : "13"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

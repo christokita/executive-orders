@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1544022175933.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "EB4B713C",
+    "lastKnownWriteTime" : 6,
+    "last_content_update" : 1544022175933,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "C3B4C88C",
+        "caption" : "cohere_data",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=cohere_data&cache_key=C3B4C88C",
+        "displayedObservations" : 1235,
+        "environment" : "",
+        "object" : "cohere_data",
+        "preview" : 0,
+        "totalObservations" : 1235,
+        "variables" : 3
+    },
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
