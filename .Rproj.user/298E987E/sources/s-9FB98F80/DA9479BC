@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "1009171329",
+    "hash" : "0",
     "id" : "DA9479BC",
-    "lastKnownWriteTime" : 1544022356,
-    "last_content_update" : 1544022356075,
+    "lastKnownWriteTime" : 1544023139,
+    "last_content_update" : 1544023139212,
     "path" : "~/Documents/Research/Executive Orders/executive_orders/scripts/04b-analyzeTopicModels.R",
     "project_path" : "scripts/04b-analyzeTopicModels.R",
     "properties" : {
-        "cursorPosition" : "35,8",
-        "scrollLine" : "24"
+        "cursorPosition" : "35,20",
+        "scrollLine" : "18"
     },
     "relative_order" : 5,
     "source_on_save" : false,

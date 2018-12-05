@@ -7,13 +7,13 @@
     "folds" : "",
     "hash" : "0",
     "id" : "5018CA14",
-    "lastKnownWriteTime" : 1543976347,
-    "last_content_update" : 1543976347912,
+    "lastKnownWriteTime" : 1544022770,
+    "last_content_update" : 1544022770708,
     "path" : "~/Documents/Research/Executive Orders/executive_orders/scripts/04a-topicModelEOs.R",
     "project_path" : "scripts/04a-topicModelEOs.R",
     "properties" : {
-        "cursorPosition" : "75,78",
-        "scrollLine" : "50"
+        "cursorPosition" : "34,0",
+        "scrollLine" : "16"
     },
     "relative_order" : 3,
     "source_on_save" : false,

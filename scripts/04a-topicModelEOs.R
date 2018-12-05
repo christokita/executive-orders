@@ -61,8 +61,8 @@ parallel_ldas <- sfLapply(Ks, function(k) {
   # Run LDA model
   eo_lda <- FitLdaModel(dtm = eo_dtm, 
                         k = k,
-                        iterations = 500,
-                        burnin = 150,
+                        iterations = 2000,
+                        burnin = 200,
                         alpha = 0.1,
                         beta = 0.05, 
                         optimize_alpha = TRUE, 
