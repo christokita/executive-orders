@@ -56,13 +56,10 @@ eos$word.count <- str_count(string  = eos$text,
                             pattern = " ") + 1
 summary(eos$word.count)
 
+# Find and remove unpublished EOs
 shortEOs <- filter(eos, eos$word.count < 10)
 unpublishedEOs <- shortEOs$num
-shortEOs$text
-
-# eos <- filter(eos, word.count > 10)
-eos$shortEo <- eos$word.count < 10
-
+eos <- filter(eos, word.count > 10)
 
 #convert endashes to regular dashes
 eos$title <- str_replace_all(string = eos$title,
@@ -107,7 +104,7 @@ pres <- apply(presRanges, 1, function(x){
                     num2      = eoRange, 
                     stringsAsFactors = FALSE)
 })
-pres <- ldply(pres)
+pres <- do.call('rbind', pres)
 
 #remove letters to make EO matching simpler
 eos$num2 <- str_replace_all(string      = eos$num,

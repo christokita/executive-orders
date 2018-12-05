@@ -3,7 +3,7 @@
 # Topic model EOs
 #
 ##################################################################################################
- rm(list =ls())
+rm(list =ls())
 source("scripts/util/__Util_MASTER.R")
 library(parallel)
 library(snowfall)
@@ -11,7 +11,7 @@ library(snowfall)
 ####################
 # Load data
 ####################
-load("data/eosCurated.RData")
+load("/scratch/gpfs/ctokita/ExecutiveOrders/data/eosCurated.RData")
 
 
 ####################
@@ -21,7 +21,7 @@ load("data/eosCurated.RData")
 eo_dtm <- CreateDtm(doc_vec = eos$text, 
                     doc_names = eos$num, 
                     ngram_window = c(1, 2), 
-                    stopword_vec = c(stopwords('en'), stopwords('smart')),
+                    stopword_vec = c(stopwords::stopwords('en'), stopwords::stopwords(source = 'smart')),
                     lower = TRUE,
                     remove_punctuation = TRUE,
                     remove_numbers = TRUE,
@@ -29,11 +29,12 @@ eo_dtm <- CreateDtm(doc_vec = eos$text,
                     # stem_lemma_function = function(x) SnowballC::wordStem(x, "porter"),
                     cpus = 2)
 
-# Basic corpus statistics
-# tf_mat <- TermDocFreq(eo_dtm) 
-# head(tf_mat[order(tf_mat$term_freq, decreasing = TRUE), ], 20) # see top words
-# tf_bigrams <- tf_mat[ stringr::str_detect(tf_mat$term, "_") , ]
-# head(tf_bigrams[ order(tf_bigrams$term_freq, decreasing = TRUE) , ], 20) # see top bigram words
+# Remove overly frequent words
+tf <- TermDocFreq(dtm = eo_dtm)
+keep_terms <- tf$term[ tf$doc_freq <= nrow(eo_dtm)/2]
+eo_dtm <- eo_dtm[, keep_terms]
+summary(rowSums(eo_dtm)) #check to make sure all documents have words
+
 
 # Save DTM
 save(eo_dtm, file = "/scratch/gpfs/ctokita/ExecutiveOrders/dtms/eo_dtm.Rdata")
