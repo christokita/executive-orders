@@ -32,7 +32,8 @@ cohere_data <- coherence %>%
             med_cohere = median(coherence))
 
 gg_cohere <- ggplot() +
-  geom_point(data = coherence, aes(x = topic_num, y = coherence))
+  geom_point(data = coherence, aes(x = topic_num, y = coherence)) +
+  theme_
 
 
 ####################

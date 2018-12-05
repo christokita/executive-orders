@@ -1,21 +1,21 @@
 {
     "collab_server" : "",
     "contents" : "",
-    "created" : 1543853848704.000,
+    "created" : 1544022362276.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
     "hash" : "0",
-    "id" : "9C04EDE9",
-    "lastKnownWriteTime" : 1544022263,
-    "last_content_update" : 1544022263252,
+    "id" : "3026F013",
+    "lastKnownWriteTime" : 1544022381,
+    "last_content_update" : 1544022381046,
     "path" : "~/Documents/Research/Executive Orders/executive_orders/scripts/util/__Util_MASTER.R",
     "project_path" : "scripts/util/__Util_MASTER.R",
     "properties" : {
-        "cursorPosition" : "20,79",
-        "scrollLine" : "0"
+        "cursorPosition" : "29,0",
+        "scrollLine" : "2"
     },
-    "relative_order" : 3,
+    "relative_order" : 7,
     "source_on_save" : false,
     "source_window" : "",
     "type" : "r_source"
