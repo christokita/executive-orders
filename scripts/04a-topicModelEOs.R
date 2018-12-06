@@ -63,14 +63,13 @@ parallel_ldas <- sfLapply(Ks, function(k) {
                         k = k,
                         iterations = 2000,
                         burnin = 200,
-                        alpha = 0.1,
-                        beta = 0.05, 
+                        alpha = 50/k, # per Griffiths & Steyvers (2004)
+                        beta = 0.1, # per Griffiths & Steyvers (2004)
                         optimize_alpha = TRUE, 
                         calc_likelihood = TRUE, 
                         calc_coherence = TRUE, 
                         calc_r2 = TRUE, 
                         cpus = 1)
-  
   # Save
   file_name <- paste0("eo_lda_k", k)
   save(eo_lda, file = paste0("/scratch/gpfs/ctokita/ExecutiveOrders/lda_models/", file_name, ".Rdata"))

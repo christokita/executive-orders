@@ -7,19 +7,52 @@
 source("scripts/util/__Util_MASTER.R")
 
 ####################
-# Load data
+# Analyze coherence by topic number
 ####################
-load("data/eosCurated.RData")
+# Get files
+files <- list.files("data_derived/lda_models", full.names = T)
 
+# load each and get coherence
+coherence <- lapply(files, function(x) {
+  # Load
+  print(x)
+  load(x)
+  # Get coherence data
+  to_return <- data.frame(topic_num = length(eo_lda$coherence),
+                          coherence = eo_lda$coherence)
+  # Return
+  return(to_return)
+})
+coherence <- do.call('rbind', coherence)
+
+# Prep and plot
+cohere_data <- coherence
+cohere_sum <- cohere_data %>% 
+  group_by(topic_num) %>% 
+  summarise(mean_cohere = mean(coherence),
+            med_cohere = median(coherence))
+
+gg_cohere <- ggplot() +
+  geom_point(data = cohere_data, aes(x = topic_num, y = coherence), size = 0.1, color = "grey80") +
+  geom_line(data = cohere_sum, aes(x = topic_num, y = med_cohere)) +
+  geom_point(data = cohere_sum, aes(x = topic_num, y = med_cohere)) +
+  theme_ctokita()
+gg_cohere
 
 ####################
 # Interpret model
 ####################
+rm(list = ls())
+
+# Load bet fit model
+load("data_derived/dtms/eo_dtm.Rdata")
+load("data_derived/lda_models/eo_lda_k85.Rdata")
+
 plot(eo_lda$log_likelihood, type = "l")
 
 # Get top terms and label topics
 eo_lda$top_terms <- GetTopTerms(phi = eo_lda$phi, M = 10)
-eo_lda$labels <- LabelTopics(assignments = eo_lda$theta > 5, 
+eo_lda$labels <- LabelTopics(assignments = eo_lda$theta > 0.1, 
                              dtm = eo_dtm,
                              M = 3)
 
