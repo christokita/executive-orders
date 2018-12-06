@@ -9,4 +9,4 @@
 #SBATCH --mail-user=ctokita@princeton.edu
 
 cd .
-Rscript scripts/04a-topicModelEOs.R
+Rscript scripts/04a-topicModelEOs_bigrams.R

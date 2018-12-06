@@ -3,7 +3,7 @@
 # Analyze Topic Models of EOs
 #
 ##################################################################################################
-
+rm(list = ls())
 source("scripts/util/__Util_MASTER.R")
 
 ####################
@@ -19,23 +19,26 @@ coherence <- lapply(files, function(x) {
   load(x)
   # Get coherence data
   to_return <- data.frame(topic_num = length(eo_lda$coherence),
-                          coherence = eo_lda$coherence)
+                          coherence = eo_lda$coherence,
+                          r2 = eo_lda$r2,
+                          logLikelihood = eo_lda$log_likelihood[length(eo_lda$log_likelihood), 2])
   # Return
   return(to_return)
 })
-coherence <- do.call('rbind', coherence)
+model_data <- do.call('rbind', coherence)
 
 # Prep and plot
-cohere_data <- coherence
-cohere_sum <- cohere_data %>% 
+model_sum <- model_data %>% 
   group_by(topic_num) %>% 
   summarise(mean_cohere = mean(coherence),
-            med_cohere = median(coherence))
+            med_cohere = median(coherence),
+            r2 = mean(r2),
+            logLikelihood = mean(logLikelihood))
 
 gg_cohere <- ggplot() +
-  geom_point(data = cohere_data, aes(x = topic_num, y = coherence), size = 0.1, color = "grey80") +
-  geom_line(data = cohere_sum, aes(x = topic_num, y = med_cohere)) +
-  geom_point(data = cohere_sum, aes(x = topic_num, y = med_cohere)) +
+  # geom_point(data = model_data, aes(x = topic_num, y = coherence), size = 0.1, color = "grey80") +
+  geom_line(data = model_sum, aes(x = topic_num, y = mean_cohere)) +
+  geom_point(data = model_sum, aes(x = topic_num, y = r2)) +
   theme_ctokita()
 gg_cohere
 
@@ -46,7 +49,7 @@ rm(list = ls())
 
 # Load bet fit model
 load("data_derived/dtms/eo_dtm.Rdata")
-load("data_derived/lda_models/eo_lda_k85.Rdata")
+load("data_derived/lda_models/eo_lda_k40.Rdata")
 
 plot(eo_lda$log_likelihood, type = "l")
 

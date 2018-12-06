@@ -67,10 +67,12 @@ parallel_ldas <- sfLapply(Ks, function(k) {
                         beta = 0.1, # per Griffiths & Steyvers (2004)
                         optimize_alpha = TRUE, 
                         calc_likelihood = TRUE, 
-                        calc_coherence = TRUE, 
+                        calc_coherence = FALSE, 
                         calc_r2 = TRUE, 
                         cpus = 1)
+  eo_lda$coherence_5 <- CalcProbCoherence(phi = eo_lda$phi, dtm = eo_dtm, M = 5)
+  eo_lda$coherence_10 <- CalcProbCoherence(phi = eo_lda$phi, dtm = eo_dtm, M = 10)
   # Save
   file_name <- paste0("eo_lda_k", k)
-  save(eo_lda, file = paste0("/scratch/gpfs/ctokita/ExecutiveOrders/lda_models/", file_name, ".Rdata"))
+  save(eo_lda, file = paste0("/scratch/gpfs/ctokita/ExecutiveOrders/lda_models_bigrams/", file_name, ".Rdata"))
 })

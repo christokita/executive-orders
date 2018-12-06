@@ -20,7 +20,7 @@ load("/scratch/gpfs/ctokita/ExecutiveOrders/data/eosCurated.RData")
 # make document-term matrix (DTM)
 eo_dtm <- CreateDtm(doc_vec = eos$text, 
                     doc_names = eos$num, 
-                    ngram_window = c(1, 2), 
+                    ngram_window = c(1, 1), 
                     stopword_vec = c(stopwords::stopwords('en'), stopwords::stopwords(source = 'smart')),
                     lower = TRUE,
                     remove_punctuation = TRUE,
@@ -37,7 +37,7 @@ summary(rowSums(eo_dtm)) #check to make sure all documents have words
 
 
 # Save DTM
-save(eo_dtm, file = "/scratch/gpfs/ctokita/ExecutiveOrders/dtms/eo_dtm.Rdata")
+save(eo_dtm, file = "/scratch/gpfs/ctokita/ExecutiveOrders/dtms/eo_dtm_single.Rdata")
 
 
 ####################
@@ -67,9 +67,11 @@ parallel_ldas <- sfLapply(Ks, function(k) {
                         beta = 0.1, # per Griffiths & Steyvers (2004)
                         optimize_alpha = TRUE, 
                         calc_likelihood = TRUE, 
-                        calc_coherence = TRUE, 
+                        calc_coherence = FALSE, 
                         calc_r2 = TRUE, 
                         cpus = 1)
+  eo_lda$coherence_5 <- CalcProbCoherence(phi = eo_lda$phi, dtm = eo_dtm, M = 5)
+  eo_lda$coherence_10 <- CalcProbCoherence(phi = eo_lda$phi, dtm = eo_dtm, M = 10)
   # Save
   file_name <- paste0("eo_lda_k", k)
   save(eo_lda, file = paste0("/scratch/gpfs/ctokita/ExecutiveOrders/lda_models/", file_name, ".Rdata"))
